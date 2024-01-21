@@ -185,7 +185,6 @@ resource "azurerm_application_gateway" "main" {
 
 > Note: Please add a forward “**/**” in terraform regex otherwise it will not work. This is because Terraform uses forward slashes as separators in certain syntax constructs to organize resources or data sources hierarchically.
 
-:::image type="content" source="media/renew-certificate/oldsslcert.png" alt-text="Renew certificate":::
 
 **Final-Result**:
 
